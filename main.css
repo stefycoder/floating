@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:content-box;
+}
+.container{
+	border:1px solid black;
+}
+.h{
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+.hijo1{
+	background-color: yellow;
+	
+}
+.hijo2{
+	background-color: blue;
+}
+.hijo3{
+	background-color: red;
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+/* Pon tu código css aqui */
